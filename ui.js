@@ -12,3 +12,15 @@
             window.location.href = "failpage.html";
         }
     }
+
+    function RegSubmit() {
+        let Email = document.getElementById("Email").value;
+        let password = document.getElementById("password").value;
+        let Repassword = document.getElementById("Repassword").value;
+        window.location.href = "ui.html";
+    }
+
+    function SignupSubmit() {
+        window.location.href = "register.html";
+        
+    }
